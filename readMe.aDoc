@@ -1,0 +1,3 @@
+Test migration from maven to gradle
+
+`gradle init`

@@ -1,0 +1,6 @@
+rootProject.name = 'test-maven-to-gradle-conversion'
+
+include ':demo-api', ':demo-impl'
+
+project(':demo-api').projectDir = "$rootDir/demo-api" as File
+project(':demo-impl').projectDir = "$rootDir/demo-impl" as File
